@@ -1,5 +1,3 @@
-//祝日表記
-
 function doGet(e) {
   var htmlOutput = HtmlService.createTemplateFromFile("index").evaluate();
   htmlOutput.setTitle('調整さん用テキスト生成').addMetaTag('viewport', 'width=device-width, initial-scale=1');
